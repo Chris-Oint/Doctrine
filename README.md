@@ -55,6 +55,26 @@ Fonctions :
 - installation comme application (bouton « Installer l'application » ou
   « Ajouter à l'écran d'accueil »).
 
+## Télécharger et installer
+
+- **En ligne** : <https://chris-oint.github.io/Doctrine/> — le bouton
+  **Installer l'application** (ou « Ajouter à l'écran d'accueil ») pose le
+  cahier sur le téléphone ; il s'ouvre ensuite **sans connexion**, avec le
+  même logo que l'application Bible.
+- **Fichier autonome** : `Doctrine-cahier-de-charge.html` (13 Mo) — un seul
+  fichier, à mettre sur une clé USB ou à envoyer ; il s'ouvre par double-clic
+  et fonctionne hors ligne.
+- **Archive complète** : `Doctrine-cahier-de-charge.zip` — le fichier, le
+  manifeste, le service worker et les icônes (pour l'installation hors ligne).
+
+Les deux se trouvent dans les **pièces jointes de la version** :
+<https://github.com/Chris-Oint/Doctrine/releases/latest>
+
+À l'ouverture, le cahier présente le même écran d'animation que l'application
+(portrait, panneau qui se déroule, texte qui s'écrit) ; le bouton
+**Passer l'animation** l'abrège, et il ne rejoue plus ensuite dans le même
+onglet.
+
 ## Travailler dans le cahier
 
 Chaque passage porte trois boutons :
