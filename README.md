@@ -50,17 +50,42 @@ Fonctions :
 - filtres par thème, par édition (VGR / Shekinah), par année ;
 - tri par pertinence, par date ou par code ;
 - marquage « lu » avec barre de progression (mémorisé sur l'appareil) ;
-- copie d'un passage avec sa référence ;
+- copie d'un passage avec sa référence et son lien profond ;
 - mode nuit, impression ;
 - installation comme application (bouton « Installer l'application » ou
   « Ajouter à l'écran d'accueil »).
+
+## Travailler dans le cahier
+
+Chaque passage porte trois boutons :
+
+- **Lien ⧉** — affiche le lien profond du passage ; on peut le **copier** ou
+  le **télécharger** (`60-1231 §52.html` : un fichier qui ouvre le passage
+  directement dans l'application, et dont on peut recopier l'adresse pour la
+  coller dans un autre navigateur) ;
+- **✎ Note** — ouvre un champ d'annotation personnel par passage
+  (remarque, réponse, renvoi) ; le passage annoté est marqué « ✎ Note ✓ » ;
+- **Copier** — copie la citation complète (référence + texte + lien).
+
+En haut de la page :
+
+- **Mes notes** — n'affiche que les passages annotés ;
+- **Exporter mon travail** — télécharge un fichier JSON
+  (`doctrine-mon-travail-AAAA-MM-JJ.json`) avec les passages lus et toutes
+  les notes, pour les mettre de côté ou les passer à un collaborateur ;
+- **Importer** — recharge ce fichier JSON et fusionne avec le travail
+  déjà fait sur l'appareil.
+
+Tout est conservé **sur l'appareil** (mémoire locale du navigateur) : rien
+n'est envoyé sur un serveur. L'export sert de sauvegarde.
 
 ## Passerelle vers l'application
 
 Le bouton **Passerelle ⇄** ouvre la passerelle :
 
 - **Ouvrir §… ↗** (sur chaque passage) ouvre le sermon dans l'application,
-  descend au paragraphe et le surligne quelques secondes ;
+  descend au paragraphe et le surligne quelques secondes, **sans animation
+  d'ouverture** ;
 - **Bible** : les références bibliques détectées dans le texte sont
   cliquables et ouvrent le verset dans l'application, surligné ;
 - **À partager** : le lien du cahier, à copier pour un collaborateur.
