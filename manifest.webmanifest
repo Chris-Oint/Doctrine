@@ -1,0 +1,32 @@
+{
+ "name": "Doctrine \u2014 Cahier de charge",
+ "short_name": "Doctrine",
+ "description": "Recueil th\u00e9matique : enl\u00e8vement, seconde venue, sceaux, tonnerres, fin de la gr\u00e2ce, Mill\u00e9nium.",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#f6f3ec",
+ "theme_color": "#2a2622",
+ "lang": "fr",
+ "icons": [
+  {
+   "src": "assets/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "assets/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "assets/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
